@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=User
+comment0.text=\r\n\ The\ superclass\ User\ defines\ a\ typical\ person\ using\ a\ library.\r\n\ It\ uses\ parameters\ to\ define\ similar\ aspects\ between\ a\r\n\ library\ member\ and\ a\ guest\ member\ to\ the\ libary\ and\ acts\ as\r\n\ a\ superclass\ to\ those\ specific\ subclasses.\r\n\r\n\ @author\ Robert\ Mackie\r\n\ @version\ 0.5\ 25/11/23\r\n
+comment1.params=ID\ name\ address
+comment1.target=User(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ superclass\ User\r\n\r\n\ @param\ ID\ \ \ \ \ The\ users\ ID\ number\r\n\ @param\ name\ \ \ \ The\ users\ full\ name\r\n\ @param\ address\ \ \ \ The\ users\ current\ address\r\n
+comment2.params=
+comment2.target=void\ printUserDetails()
+comment2.text=\r\n\ This\ method\ prints\ out\ the\ details\ of\ the\ user.\ This\ method\ works\r\n\ is\ called\ in\ the\ sublclasses\ to\ print\ details\ of\ library\ members\ \r\n\ inherited\ from\ this\ superclass.\ The\ if\ statment\ allows\ the\ system\r\n\ to\ differentiate\ between\ guest\ user\ and\ library\ members.\r\n\ \r\n
+numComments=3

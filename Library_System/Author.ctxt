@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Author
+comment0.text=\r\n\ A\ class\ that\ operates\ as\ an\ Author.\ It\ contains\ fields\ for\ a\ first\ name,\ a\ last\ name\r\n\ and\ the\ authors\ address.\ \r\n\ There\ is\ also\ an\ ArrayList\ to\ specify\ materials\ written\ in\r\n\ library\ that\ is\ associated\ with\ the\ Resource\ object.\r\n\r\n\ @author\ Robert\ Mackie\r\n\ @version\ 0.5\ (28/11/23)\r\n
+comment1.params=firstName\ lastName\ address
+comment1.target=Author(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Author\r\n\ \r\n\ @param\ String\ firstName\ \ \ \ The\ first\ name\ of\ the\ Author\r\n\ @param\ String\ lastName\ \ \ \ The\ last\ name\ of\ the\ Author\r\n\ @param\ String\ address\ \ \ \ The\ address\ of\ the\ Author\r\n
+comment2.params=
+comment2.target=java.lang.String\ getFullName()
+comment2.text=\r\n\ Show\ the\ authors\ fullname\ by\ concatenating\ the\ string\ values\ in\ fName\ and\ lName\r\n\ data\ fields.\r\n\ \r\n\ @return\ String\ getfullName\ \ \ Returns\ the\ authors\ full\ name\r\n
+comment3.params=
+comment3.target=java.lang.String\ getAddress()
+comment3.text=\r\n\ Show\ the\ Authors\ Address\r\n\ \r\n\ @return\ String\ getAddress\ \ \ \ Reuturns\ the\ authors\ address\ value.\r\n
+comment4.params=resource\ author
+comment4.target=void\ addResource(Resource,\ Author)
+comment4.text=\r\n\ This\ method\ adds\ a\ resource\ to\ Arraylist\ of\ Materials\ written,\ while\r\n\ also\ calling\ the\ updateAuthor\ method\ in\ the\ resource\ class.\ \r\n\r\n\ @param\ resource\ The\ resource/material\ to\ be\ attributed\ to\ the\ Author\r\n\ @param\ Author\ \ \ The\ Author\ the\ resource\ is\ to\ be\ attributed\ to.\r\n
+comment5.params=
+comment5.target=void\ showDetails()
+comment5.text=\r\n\ This\ method\ displays\ the\ details\ of\ this\ Author\ object\ by\ printing\r\n\ them\ to\ the\ terminal.\r\n\ \r\n
+comment6.params=
+comment6.target=void\ printMaterials()
+comment6.text=\r\n\ This\ method\ will\ display\ the\ details\ of\ any\ resource\ object\ in\ the\r\n\ Materials\ written\ \ ArrayList\ in\ the\ Author\ class\ .\r\n\r\n\ Prints\ out\ inherited\ values\ of\ the\ resource\ class\r\n\ through\ calling\ printDetails\ method\ and\ cycles\ through\r\n\ specific\ instances\ of\ each\ resource.\r\n\ \r\n
+numComments=7

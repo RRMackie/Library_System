@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Book
+comment0.text=\r\n\ A\ class\ that\ simulates\ the\ properties\ of\ a\ physical\ book.\r\n\ This\ calls\ acts\ as\ a\ subclass\ of\ the\ Resource\ class\ but\ has\r\n\ specific\ variables.\r\n\r\n\ @author\ Robert\ Mackie\r\n\ @version\ 0.5\ 26/11/23\r\n
+comment1.params=title\ ISBN\ fee
+comment1.target=Book(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Book.\ The\ method\ uses\ parameters\ to\ set\ default\r\n\ values\ for\ the\ object\ instance.\r\n\ \r\n\ @\ param\ String\ title\ \ \ \ The\ name\ of\ the\ book\ object\r\n\ @\ param\ String\ ISBN\ \ \ \ \ The\ ISBN\ of\ the\ book\ (13\ digits\ long)\r\n\ @\ param\ int\ fee\ \ \ \ \ \ \ \ \ The\ fee\ of\ the\ book\ if\ overdue/damaged\r\n
+comment2.params=
+comment2.target=java.lang.String\ getISBN()
+comment2.text=\r\n\ Show\ the\ ISBN\ for\ the\ Book\r\n\ \r\n\ @return\ String\ getISBN\ \ \ \ The\ ISBN\ of\ the\ book\ object\r\n
+comment3.params=
+comment3.target=int\ getFee()
+comment3.text=\r\n\ Show\ the\ current\ fee\ if\ the\ book\ is\ overdue\ or\ damaged.\r\n\ \r\n\ @return\ int\ getFee\ \ \ The\ fee\ value\ of\ the\ book\ object\r\n
+comment4.params=updateFee
+comment4.target=void\ setFee(int)
+comment4.text=\r\n\ Update\ the\ books\ fee\ if\ late\ or\ damaged\r\n\ \r\n\ @param\ String\ updateFee\ \ \ Set\ the\ fee\ value\ of\ the\ book\ object\r\n
+comment5.params=
+comment5.target=void\ display()
+comment5.text=\r\n\ Display\ the\ details\ of\ this\ post.\r\n\ Prints\ out\ inherited\ values\ through\ calling\ printDetails\ method\r\n\ and\ values\ specific\ to\ this\ class\ in\ terminal\ window.\r\n\ \r\n
+numComments=6

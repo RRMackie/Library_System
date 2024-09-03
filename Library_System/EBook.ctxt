@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=EBook
+comment0.text=\r\n\ A\ class\ that\ simulates\ an\ online\ book\ or\ e-book\ found\ in\ library\ systems.\r\n\ This\ class\ functions\ as\ a\ subclass\ to\ the\ Resource\ class,\ with\ specific\r\n\ varibles\ for\ a\ digital\ book.\r\n\r\n\ @author\ Robert\ Mackie\r\n\ @version\ 0.5\ 26/11/23\r\n
+comment1.params=title\ timeLimit
+comment1.target=EBook(java.lang.String,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ EBook.\ When\ instantiated\ the\ constructer\ contains\ a\r\n\ conditional\ statement\ to\ set\ the\ download\ availability\ to\ true\ due\ to\ setting\ the\r\n\ resAvailability\ when\ the\ object\ is\ added\ to\ the\ library.\r\n\ This\ can\ also\ be\ manually\ set\ by\ a\ method.\r\n\ \r\n\ @\ param\ string\ title\ \ \ \ The\ title\ of\ the\ book\r\n\ @\ param\ int\ timeLimit\ \ \ \ The\ amount\ of\ days\ the\ book\ can\ be\ downloaded\ for\r\n
+comment2.params=
+comment2.target=boolean\ getdownloadAvailability()
+comment2.text=\r\n\ Show\ if\ the\ e-book\ is\ available\ for\ download\r\n\ \r\n\ @return\ boolean\ getdownloadAvailability\ \ \ \ Return\ if\ the\ Ebook\ can\ be\ downloaded\r\n
+comment3.params=updateDownload
+comment3.target=void\ ableToDownload(boolean)
+comment3.text=\r\n\ Set\ the\ Ebooks\ download\ availability.\r\n\ \r\n\ @param\ boolean\ updateDownload\ \ \ Set\ the\ download\ to\ 'true'\ or\ 'false'\r\n
+comment4.params=
+comment4.target=int\ getDownloadLimit()
+comment4.text=\r\n\ Show\ the\ current\ time\ limit\ for\ download\ for\ the\ EBook\ object\r\n\ \r\n\ @return\ int\ getDownloadLimit\ \ \ \ Return\ the\ value\ for\ the\ download\ limit\r\n
+comment5.params=updateLimit
+comment5.target=void\ setLimit(int)
+comment5.text=\r\n\ Update\ the\ Ebooks\ download\ time\r\n\ \r\n\ @param\ int\ updateLimit\ \ \ \ Set\ the\ download\ limit\ value\r\n
+comment6.params=
+comment6.target=void\ display()
+comment6.text=\r\n\ Display\ the\ details\ of\ this\ post.\r\n\ Prints\ out\ inherited\ values\ through\ calling\ printDetails\ method\r\n\ and\ values\ specific\ to\ this\ class\ in\ terminal\ window.\r\n\ \r\n
+numComments=7

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Journal
+comment0.text=\r\n\ Simulates\ an\ online\ journal\ resource\ for\ a\ library.\r\n\ This\ is\ a\ subclass\ to\ the\ Resource\ class\ with\ variables\r\n\ that\ are\ specific\ to\ journals.\r\n\r\n\ @author\ Robert\ Mackie\r\n\ @version\ 0.6\ 26/11/23\r\n
+comment1.params=title\ specificResearch\ foundAt
+comment1.target=Journal(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Journal.When\ instantiated\ the\ constructer\ contains\ a\r\n\ conditional\ statement\ to\ set\ the\ download\ availability\ to\ true\ due\ to\ setting\ the\r\n\ resAvailability\ when\ the\ object\ is\ added\ to\ the\ library.\r\n\ This\ can\ also\ be\ manually\ set\ by\ a\ method.\r\n\ \r\n\ @param\ String\ title\ \ \ \ Add\ in\ the\ title\ of\ the\ Journal\r\n\ @param\ String\ specificResearch\ \ \ Add\ the\ area\ of\ research\ for\ this\ Journal\r\n\ @param\ String\ foundAt\ \ \ \ Add\ the\ Url/source\ of\ this\ journal\r\n
+comment2.params=
+comment2.target=boolean\ getDownloadAvailablity()
+comment2.text=\r\n\ Show\ if\ the\ Journal\ is\ available\ to\ download\r\n\ \r\n\ @return\ boolean\ availableToDownload\ \ \ \ Returns\ the\ vale\ of\ the\ boolean\r\n
+comment3.params=updateDownload
+comment3.target=void\ ableToDownload(boolean)
+comment3.text=\r\n\ Set\ the\ Journals\ download\ availability.\r\n\ \r\n\ @param\ boolean\ apdateDownload\ \ \ Set\ the\ download\ to\ 'true'\ or\ 'false'\r\n
+comment4.params=
+comment4.target=java.lang.String\ getResearchArea()
+comment4.text=\r\n\ Show\ the\ research\ area\ of\ the\ Journal\r\n
+comment5.params=updateResearch
+comment5.target=void\ setArea(java.lang.String)
+comment5.text=\r\n\ Update\ the\ Journals\ Research\ Area\r\n\ \r\n\ @param\ String\ updateResearch\ \ \ \ Updates\ the\ ResearchArea\ value\ \r\n
+comment6.params=
+comment6.target=void\ display()
+comment6.text=\r\n\ Display\ the\ details\ of\ this\ post.\r\n\ Prints\ out\ inherited\ values\ through\ calling\ printDetails\ method\r\n\ and\ values\ specific\ to\ this\ class\ in\ terminal\ window.\r\n\ \r\n
+numComments=7

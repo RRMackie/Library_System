@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=GuestMember
+comment0.text=\r\n\ The\ GuestMember\ class\ simulates\ a\ guest\ to\ the\ library\ and\ is\r\n\ as\ subclass\ to\ the\ User\ superclass.\r\n\ The\ guestMember\ has\ set\ priveleges\ compared\ to\ the\ LibraryMember\ class\r\n\ in\ that\ it\ only\ has\ 3\ Days\ of\ library\ access\r\n\r\n\ @author\ Robert\ Mackie\r\n\ @version\ 0.4\ 24/11/23\r\n
+comment1.params=ID\ name\ address
+comment1.target=GuestMember(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ GuestMember\r\n\ \r\n\ @param\ String\ ID\ \ \ \ \ The\ guest\ members\ ID\r\n\ @param\ String\ name\ \ \ \ The\ guest\ members\ name\r\n\ @param\ String\ address\ \ \ The\ guest\ members\ address\r\n\ @Override\ boolean\ isMember\ \ \ \ The\ boolean\ value\ is\ set\ to\ false\ (default\ is\ false)\r\n
+comment2.params=
+comment2.target=int\ daysLibraryAccess()
+comment2.text=\r\n\ Get\ the\ value\ for\ the\ guest\ members\ days\ of\ access\r\n\ \r\n\ @return\ int\ daysLibraryAccess\ \ \ \ The\ amount\ of\ days\ for\ library\ access\r\n
+comment3.params=
+comment3.target=boolean\ isMember()
+comment3.text=\r\n\ Get\ the\ boolean\ value\ for\ the\ isMember\ datafield\r\n\ There\ will\ be\ no\ setter\ method\ for\ the\ value\ as\ the\r\n\ isMember\ field\ is\ defined\ by\ object\ instance.\r\n\ \r\n\ @return\ boolean\ isMember\ \ \ \ value\ for\ isMember\ field\r\n
+comment4.params=daysAccess
+comment4.target=void\ setAccess(int)
+comment4.text=\r\n\ Set\ the\ value\ for\ the\ guest\ members\ days\ of\ access\r\n\ \r\n\ @param\ int\ daysAccess\ \ \ \ Set\ the\ amount\ of\ days\ for\ guest\ library\ access\r\n
+comment5.params=
+comment5.target=void\ display()
+comment5.text=\r\n\ Display\ the\ details\ of\ this\ user.\r\n\ Prints\ out\ inherited\ values\ through\ calling\ printDetails\ method\r\n\ in\ superclass\ User\ and\ values\ specific\ to\ this\ class\ in\ terminal\ window.\r\n\r\n
+numComments=6
